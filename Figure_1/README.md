@@ -68,4 +68,4 @@ done
 
 ## Comparison of Kolmogorov-Smirnov test and t-test (panel "b") ##
 
-
+``R CMD BATCH R_commands_distribution_comparison``
