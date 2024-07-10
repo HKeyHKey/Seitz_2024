@@ -2,7 +2,7 @@
 
 #### miRNA target prediction download: ####
 
-TargetScan mouse predictions (v.8.0, dated September 2021):
+TargetScan mouse predictions ([v.8.0, dated September 2021](https://www.targetscan.org/mmu_80/)):
 
 ``wget https://www.targetscan.org/mmu_80/mmu_80_data_download/Summary_Counts.default_predictions.txt.zip;unzip Summary_Counts.default_predictions.txt.zip;awk -F '\t' '$4==10090 {print}' Summary_Counts.default_predictions.txt > mmu_Summary_Counts.default_predictions.txt;./Script_GO_terms_for_murine_TargetScan_predictions.sh``
 
